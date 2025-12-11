@@ -20,10 +20,13 @@ If there are k customers in the system, then k servers are busy. Each works inde
 This lets us treat the M/M/∞ model as a simple Markov chain and find the distribution of the number of customers in service.
 # Algorithm
 <img width="806" height="297" alt="image" src="https://github.com/user-attachments/assets/e08285b0-8d2d-4b63-8e52-4bf2d065b0ff" />
+
 # ref no: 25014743
 # slot no: 3P1-1
 # date: 11/12/2025
+
 # Program
+
 ```
 import math 
 
@@ -71,14 +74,16 @@ if (rho < 1):
 else: 
     print("Warning! Objects overflow will happen in the conveyor") 
     print("-----------------------------------------------------")
-
-
 ```
+
 # collab link:
+
 https://colab.research.google.com/drive/1aWCYyD8mQCQN4-jNcI4n99cAijyWMC2E?usp=sharing
+
 # Output
 
-# <img width="803" height="337" alt="image" src="https://github.com/user-attachments/assets/c47905ab-15ff-41e3-8903-d61f8a0634ab" />
-Result
-       The average number of material in the system and in the conveyor and waiting are  successfully found.
+<img width="803" height="337" alt="image" src="https://github.com/user-attachments/assets/c47905ab-15ff-41e3-8903-d61f8a0634ab" />
+
+# Result:
+   The average number of material in the system and in the conveyor and waiting are  successfully found.
 
